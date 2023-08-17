@@ -1,0 +1,544 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/NetflixH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.437);
+}
+
+#head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 33.33%;
+    background-color: rgba(0, 0, 0, 0.445);
+}
+
+
+#head #left img{
+    width: 180px;
+    height: 85px;
+}
+
+#head #right{
+    display: flex;
+}
+
+#head #right select{
+    text-align: center;
+    border: 1px soild white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+}
+
+#head #right button{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    background-color: #E50914;
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+}
+
+#body{
+    text-align: center;
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+#body h1,p{
+    color: white;
+}
+
+#body h1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body #p1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#body #p2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#body input{
+    color: white;
+    border-radius: 5px;
+    padding: 8px 24px;
+    margin-right: 5px;
+    background-color: transparent;
+    width: 262px;
+    height: 40px;
+}
+
+#body #btn{
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0px 0px 0px 8px;
+    padding: 12px 24px;
+    color: white;
+    background-color: #E50914;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body input::placeholder{
+    font-weight: 100;
+    padding-left: 10px;
+    color: gray;
+    font-size: 16px;
+}
+
+#head #right select option i{
+    background-color: white;
+    color: white;
+}
+
+#Enjoy{
+    /* background-color:black; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#Enjoy div{
+    width: 48%;
+}
+
+#left h1{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#Enjoy #left p{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Enjoy #right img{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+#Enjoy #right{
+    position: relative;
+}
+
+#Enjoy #right video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 2;
+}
+
+#Enjoysection{
+    position: relative;
+    background-color: black;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+#st{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#st div{
+    width: 48%;
+}
+#left #i1{
+  width: 80%;
+}
+
+#inner{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: auto;
+    background-color: black;
+    border-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 0px;
+}
+
+#inner #i2{
+    width: 58px;
+    height: 80px;
+}
+
+#inner span{
+    color: #0071eb;
+    font-size: 14px;
+}
+
+#inner #i3{
+    width: 48px;
+    height: 60px;
+}
+
+#left{
+    position: relative;
+}
+
+#left #inner{
+    position: absolute;
+    top: 280px;
+    left: 101px;
+}
+#st #right h1,p{
+    text-align: left;
+}
+
+#st #right h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+#st #right p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#stsection{
+    background-color: black;
+    margin-top: 0px;
+}
+
+#sg{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#sg div{
+    width: 48%;
+}
+#sg #left h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+#sg #left p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+
+
+#right{
+    position: relative;
+    
+}
+
+#right video{
+    border-radius: 5px;
+    width: 422px;
+    height: 273px;
+    position: absolute;
+    top: 24px;
+    left: 113px;
+    z-index: 2;
+}
+
+#right img{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+#sgsection {
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+#kid{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+#kid div{
+    width: 48%;
+}
+
+#kid #right h1,p{
+    text-align: left;
+}
+
+#kid #right h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+}
+
+#kid #right p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+#kidsection{
+    background-color: black;
+}
+
+#ty h1{
+    display: none;
+}
+
+/* -----------mobile---------- */
+
+@media (max-width:600px) {
+    br{
+        display: none;
+    }
+
+    body{
+        background-size: 200%;
+        background-color: black;
+        /* background-position-x: center; */
+    }
+
+    #head{
+        margin-top: 5px;
+    }
+
+    #head #left img{
+        width: 89px;
+        height: 50px;
+    }
+
+    #head #right select{
+        width: 64px;
+        height: 32px;
+    }
+
+    #head #right button{
+        width: 77px;
+        height: 32px;
+    }
+
+    #body{
+        margin-top: 100px;
+        width: 80%;
+        margin: auto;
+    }
+
+    #body h1{
+        font-size: 32px;
+    }
+
+    #body #p1{
+        font-size: 18px;
+    }
+
+    #body #p2{
+        font-size: 16px;
+    }
+
+    #body #btn{
+        font-size: 18px;
+        margin: 16px 0px 0px 8px;
+    }
+
+    #Enjoy{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+    #Enjoy div{
+        width: 90%;
+    }
+    
+    #left h1{
+        font-size: 28px;
+    }
+
+    
+    #Enjoy #left p{
+        font-size: 14px;
+    }
+    #Enjoy #right video{
+        top: -5%;
+    }
+
+    #st{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+   #st div{
+    width: 90%;
+
+   }
+    #left #i1{
+      width: 100%;
+    }
+    #left #inner{
+        width: 50%;
+        height: 48px;
+    }
+    #inner #i2{
+        width: 34px;
+        height: 48px;
+    }
+
+    #inner h4{
+        font-size: 14px;
+    }
+    
+    #inner span{
+        font-size: 12px;
+    }
+    
+    #inner #i3{
+        width: 48px;
+        height: 48px;
+    }
+
+    #left{
+        width: 90%;
+    }
+    
+    #left{
+        position: relative;
+    }
+    
+    #left #inner{
+        position: absolute;
+        top: 190px;
+        left: 80px;
+    }
+
+    #st #right h1,p{
+        text-align: center;    
+    }
+
+    #st #right{
+        width: 90%;
+    }
+    
+    #st #right h1{
+        font-size: 32px;
+    }
+    
+    #st #right p{
+        font-size: 16px;
+    }
+    #sg{
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sg div{
+        width: 90%;
+    }
+    
+    #sg #left h1{
+        font-size: 32px;
+    }
+    
+    #sg #left p{
+        font-size: 16px;
+    }
+
+    #sg #left h1,p{
+        text-align: center;
+    }
+
+    #right{
+        position: relative;
+        
+    }
+    
+    #right video{
+        border-radius: 5px;
+        width: 201px;
+        height: 274px;
+        position: absolute;
+        top: -60px;
+        left: 52px;
+        z-index: 2;
+    }
+    
+    #right img{
+        position: relative;
+        z-index: 3;
+        width: 100%;
+    }
+    
+    #sgsection {
+        background-color: black;
+        position: relative;
+        z-index: 1;
+    }
+    
+    #kid{
+        flex-direction: column;
+    }
+
+    #kid div{
+        width: 90%;
+        height: 50%;
+    }
+
+    #kid #left img{
+        width: 100%;
+    }
+
+    #kid #right h1{
+        font-size: 32px;
+        color: white;
+    } 
+
+    #kid #right p{
+        font-size: 16px;
+    }
+    
+    #kid #right h1,p{
+        text-align: center;
+    }
+
+    #ty h1{
+        text-align: center;
+        font-size: 32px;
+    }
+}
